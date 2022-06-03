@@ -1,0 +1,41 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?a2d69237068ce29166df38967d7da739") format("truetype"),
+url("./flaticon.woff?a2d69237068ce29166df38967d7da739") format("woff"),
+url("./flaticon.woff2?a2d69237068ce29166df38967d7da739") format("woff2"),
+url("./flaticon.eot?a2d69237068ce29166df38967d7da739#iefix") format("embedded-opentype"),
+url("./flaticon.svg?a2d69237068ce29166df38967d7da739#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "car": "\f101",
+    "around": "\f102",
+    "ship": "\f103",
+    "document": "\f104",
+);
+
+.flaticon-car:before {
+    content: map-get($flaticon-map, "car");
+}
+.flaticon-around:before {
+    content: map-get($flaticon-map, "around");
+}
+.flaticon-ship:before {
+    content: map-get($flaticon-map, "ship");
+}
+.flaticon-document:before {
+    content: map-get($flaticon-map, "document");
+}
