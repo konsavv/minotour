@@ -25,6 +25,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
     <!-- Theme style  -->
     <link rel="stylesheet" href="style.css" />
 
@@ -36,7 +43,7 @@
     <title>Minotour</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container-header">
       <!-- HEADER -->
       <header class="header">
         <nav>
@@ -122,64 +129,100 @@
             Our user reviews pushes us to become better and better. We aim to
             deliver the best tour experience on the island!
           </p>
-          <div class="cards">
-            <!-- 1st card -->
-            <div class="card animate__animated animate__fadeInUp animate-fast">
-              <img src="images/Chania.jpg" alt="Χανιά" />
-              <div class="card-main">
-                <h5>Explored the prefecture of Chania</h5>
+          <div
+            class="card-group animate__animated animate__fadeInUp animate-fast pb-5"
+          >
+            <div class="card">
+              <img src="images/Chania.jpg" class="card-img-top" alt="Chania" />
+              <div class="card-body">
+                <h5 class="card-title">Explored the prefecture of Chania</h5>
                 <p class="card-text">
                   From its fascinating Old Town to exotic Balos beach and the
                   famous Samaria Gorge, Chania will treat you to an array of
                   unforgettable adventures (and a little home-brewed raki).
                 </p>
-                <div class="rating">
-                  <i class="ion-android-star-outline icon-rated"></i>
-                  <i class="ion-android-star-outline icon-rated"></i>
-                  <i class="ion-android-star-outline icon-rated"></i>
-                  <i class="ion-android-star-outline icon-rated"></i>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">
+                  <i
+                    class="ion-android-star-outline icon-rated text-warning"
+                  ></i>
+                  <i
+                    class="ion-android-star-outline icon-rated text-warning"
+                  ></i>
+                  <i
+                    class="ion-android-star-outline icon-rated text-warning"
+                  ></i>
+                  <i
+                    class="ion-android-star-outline icon-rated text-warning"
+                  ></i>
                   <span>575 reviews</span>
-                </div>
+                </small>
               </div>
             </div>
-            <!-- 2nd card -->
-            <div class="card animate__animated animate__fadeInUp animate-fast">
-              <img src="images/Heraklion.jpg" alt="Ηράκλειο" />
-              <div class="card-main">
-                <h5>Explored the prefecture of Heraklion</h5>
+            <div class="card">
+              <img
+                src="images/Heraklion.jpg"
+                class="card-img-top"
+                alt="Heraklion"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Explored the prefecture of Heraklion</h5>
                 <p class="card-text">
                   Discover the splendour of Knossos Palace, near Heraklion,
                   where the greatest civilisation of Minoan Crete ruled almost
                   4,000 years ago and where Theseus killed the legendary
                   Minotaur in King Minos’ labyrinth
                 </p>
-                <div class="rating">
-                  <i class="ion-android-star-outline icon-rated"></i>
-                  <i class="ion-android-star-outline icon-rated"></i>
-                  <i class="ion-android-star-outline icon-rated"></i>
-                  <i class="ion-android-star-outline icon-rated"></i>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">
+                  <i
+                    class="ion-android-star-outline icon-rated text-warning"
+                  ></i>
+                  <i
+                    class="ion-android-star-outline icon-rated text-warning"
+                  ></i>
+                  <i
+                    class="ion-android-star-outline icon-rated text-warning"
+                  ></i>
+                  <i
+                    class="ion-android-star-outline icon-rated text-warning"
+                  ></i>
                   <span>300 reviews</span>
-                </div>
+                </small>
               </div>
             </div>
-            <!-- 3rd card -->
-            <div class="card animate__animated animate__fadeInUp animate-fast">
-              <img src="images/Rethymnon.jpg" alt="Ρέθυμνο" />
-              <div class="card-main">
-                <h5>Explored the prefecture of Rethymno</h5>
+            <div class="card">
+              <img
+                src="images/Rethymnon.jpg"
+                class="card-img-top"
+                alt="Rethymno"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Explored the prefecture of Rethymno</h5>
                 <p class="card-text">
                   Rethymno, in Crete, is a rare combination of history and
                   modern-day luxury, with its Venetian-era Fortezza and Old
-                  Town, tropical beaches and exquisite Cretan cuisine. It is one
-                  of the best preserved medieval cities in Greece
+                  Town, tropical beaches and exquisite Cretan cuisine
                 </p>
-                <div class="rating">
-                  <i class="ion-android-star-outline icon-rated"></i>
-                  <i class="ion-android-star-outline icon-rated"></i>
-                  <i class="ion-android-star-outline icon-rated"></i>
-                  <i class="ion-android-star-outline icon-rated"></i>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">
+                  <i
+                    class="ion-android-star-outline icon-rated text-warning"
+                  ></i>
+                  <i
+                    class="ion-android-star-outline icon-rated text-warning"
+                  ></i>
+                  <i
+                    class="ion-android-star-outline icon-rated text-warning"
+                  ></i>
+                  <i
+                    class="ion-android-star-outline icon-rated text-warning"
+                  ></i>
                   <span>700 reviews</span>
-                </div>
+                </small>
               </div>
             </div>
           </div>

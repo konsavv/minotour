@@ -129,7 +129,7 @@ nav {
 
 .section-tour {
   width: 100%;
-  padding: 100px 0;
+  padding: 100px 0 200px 0;
   background: #fafafa;
 }
 
@@ -144,53 +144,12 @@ nav {
 .sub-text {
   text-align: center;
   font-size: 20px;
-  padding: 30px;
-}
-
-.cards {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-bottom: 50px;
-}
-
-.card {
-  flex: 1%;
-  color: rgb(89, 89, 89);
-  border: 1px solid rgba(0, 0, 0, 0.125);
-}
-
-.card img {
-  width: 100%;
-}
-
-.card-main {
-  padding: 20px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow: hidden;
-}
-
-.card h5 {
-  font-size: 21px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  margin: 20px 0;
-  color: rgb(89, 89, 89);
+  padding: 40px;
 }
 
 .card-text {
-  font-size: 15px;
   line-height: 57.8px;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
-
-.rating i {
-  font-size: 20px;
-  color: #dbad13;
+  padding-bottom: 30px;
 }
 
 /* FOOTER */
@@ -203,7 +162,7 @@ footer {
   color: #fff;
 }
 .container-footer {
-  padding: 30px 0;
+  /* padding: 30px 0; */
   display: flex;
   justify-content: space-around;
 }
